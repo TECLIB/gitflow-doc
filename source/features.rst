@@ -18,7 +18,7 @@ The name of the feature is up to you, choose something simple and short, describ
 
 .. code-block:: bash
 
-   (develop) $ git flow feature start my-great-feature
+   $ git flow feature start my-great-feature
 
 This will automatically do the following:
 
@@ -26,6 +26,12 @@ This will automatically do the following:
 2. checkout the ``feature/my-great-feature`` branch.
 
 So, yes, you're ready to go! Just hack, commit, push, ... You're on a branch, you can do what you want (well... almost!).
+
+As stated in :ref:`working_with_github`, you will use your fork to push new branches. You'll achieve that running:
+
+.. code-block:: bash
+
+   (feature/my-great-feature) $ git push -u {github_username} feature/my-great-feature
 
 Lifetime
 --------
@@ -40,10 +46,17 @@ But sometimes, some other features have been added, or some bugs have been fixed
 
 This will rebase you feature branch on top of the develop; it sounds just like you've just created your feature right now and it applies your commit one by one on the top. Explaining rebasing is out of the scope of the current documentation, but you'll find many resources on it.
 
+Pull Request
+------------
+
+Your feature has been finished, it must now be reviewed before being merged. Push last changes to your fork, go to your github fork page, select your branch and clik #New pull request" button.
+
+You can provide aditionnal details if any, submit, and wait for another developer to review your changes! Once accepted, go back to your local copy, and see the paragraph below.
+
 Finishing
 ---------
 
-Once you're done, you can clean up a bit your branch history, squashing your commits to prevent keeping commit messages like "oops, I did it again!". Assuming your working copy is on the feature branch, you'll then run:
+Once you're done, and your PR has been accepted, you can clean up a bit your branch history, squashing your commits to prevent keeping commit messages like "oops, I did it again!". Assuming your working copy is on the feature branch, you'll then run:
 
 .. code-block:: bash
 

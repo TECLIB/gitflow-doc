@@ -41,3 +41,45 @@ If you use command line, there are numerous ways to get usefull informations dis
    :align: center
 
    As an example, the ZSH git prompt I use
+
+.. _working_with_github:
+
+Working with Github
+-------------------
+
+Each project will have a main repository hosted on Github. Even if you are part of the core developers, you will use the main repository only to push changes on the ``develop`` and ``master`` branches. All other branches will be created on a fork (use the eponym button at the top of the project - see below) you will create on your account.
+
+.. figure:: /_static/images/fork_button.png
+   :scale: 50%
+   :align: center
+
+   The fork button
+
+.. figure:: /_static/images/forked.png
+   :scale: 50%
+   :align: center
+
+   The forked repo on my personnal account
+
+From the main repository you've cloned the project to, add a new remote, let's say naming as your github username (name does not matter, just remember what you choose, and stay consistent accross projects). Replacing ``{github_username}`` with your own username, run the following:
+
+.. code-block:: bash
+
+   $ git remote add {github_username} git@github.com:{github_username}/mreporting.git
+
+All branchs you will create that must be reviewed will be pushed to your fork.
+
+Initialization
+--------------
+
+Initializing git-flow is quite simple, just clone the repository, go to the ``master`` branch and run:
+
+.. note::
+
+   When you clone a git repository, the default branch will be checkout. In most cases, it will be ``master``, but double check.
+
+.. code-block:: bash
+
+   (master) $ git flow init
+
+You can assume the default answer is correct for all questions. If the ``develop`` branch already exists, it will be used, the process will create it otherwise.

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: git-flow 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-18 11:32+0200\n"
-"PO-Revision-Date: 2016-10-18 11:33+0200\n"
+"POT-Creation-Date: 2016-10-18 14:34+0200\n"
+"PO-Revision-Date: 2016-10-18 14:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -25,8 +25,8 @@ msgstr "Présentation"
 #: ../../source/presentation.rst:4
 msgid ""
 "`git-flow <http://nvie.com/posts/a-successful-git-branching-model/>`_ is a "
-"branching model, which come along with some documentation, and a git plugin "
-"to add command line facilities."
+"branching model, which come along with some documentation, and a git plugin to "
+"add command line facilities."
 msgstr ""
 "`git-flow <http://nvie.com/posts/a-successful-git-branching-model/>`_ est un "
 "modèle de branche, qui est fourni avec de la documentation, et un plugin git "
@@ -35,26 +35,26 @@ msgstr ""
 #: ../../source/presentation.rst:9
 msgid ""
 "Keep in mind that it is just designed to get something standardized; all the "
-"background use standard git commands, you can achieve \"manually\" "
-"everything git-flow propose. It is just simplier to use, and it prevents to "
-"use the incorect branch, or to forget about merging somewhere."
+"background use standard git commands, you can achieve \"manually\" everything "
+"git-flow propose. It is just simplier to use, and it prevents to use the "
+"incorect branch, or to forget about merging somewhere."
 msgstr ""
-"Gardez en tête qu'il s'agit de standardiser ; des commandes git standard "
-"sont utilisées an arrière plan, vous pourriez obtenir le même résultat « "
+"Gardez en tête qu'il s'agit de standardiser ; des commandes git standard sont "
+"utilisées an arrière plan, vous pourriez obtenir le même résultat « "
 "manuellement » qu'avec git-flow. C'est juste plus simple à utiliser, et ça "
 "évite d'utiliser la mauvaise branche, ou d'oublier de merger quelque part."
 
 #: ../../source/presentation.rst:11
 msgid ""
-"It is not the goal of the present documentation to list pros and cons of "
-"this model, we'll note that it is not designed to get long running support "
-"branches, it has been once something that would have been implemented; but "
-"it has not been done."
+"It is not the goal of the present documentation to list pros and cons of this "
+"model, we'll note that it is not designed to get long running support "
+"branches, it has been once something that would have been implemented; but it "
+"has not been done."
 msgstr ""
-"Le but de la présente documentation n'est pas de lister les pour et les "
-"ocntre de ce modèle, on notera simplement qu'il n'est pas prévu pour fournir "
-"des branches de support à long terme, c'est quelque chose qui avait été "
-"évoqué mais qui n'a finalement jamais été implémenté."
+"Le but de la présente documentation n'est pas de lister les pour et les ocntre "
+"de ce modèle, on notera simplement qu'il n'est pas prévu pour fournir des "
+"branches de support à long terme, c'est quelque chose qui avait été évoqué "
+"mais qui n'a finalement jamais été implémenté."
 
 #: ../../source/presentation.rst:13
 msgid "According to the semantic `versionning rules <http://semver.org>`_:"
@@ -68,8 +68,7 @@ msgstr ""
 
 #: ../../source/presentation.rst:16
 msgid "you'll ``release`` *major* or *minor* versions,"
-msgstr ""
-"vous créerez des ``release`` pour des versions *majeures* ou *mineures*,"
+msgstr "vous créerez des ``release`` pour des versions *majeures* ou *mineures*,"
 
 #: ../../source/presentation.rst:17
 msgid "you'll ``hotfix`` *patch* versions."
@@ -107,8 +106,8 @@ msgstr "Pré-requis"
 
 #: ../../source/presentation.rst:31
 msgid ""
-"In order the get the commands available; you'll have to install the `git-"
-"flow git plugin <https://github.com/nvie/gitflow>`_."
+"In order the get the commands available; you'll have to install the `git-flow "
+"git plugin <https://github.com/nvie/gitflow>`_."
 msgstr ""
 "Pour que les commandes soient disponibles, vous devrez installer `le plugin "
 "git git-flow <https://github.com/nvie/gitflow>`_."
@@ -147,6 +146,83 @@ msgstr ""
 msgid "As an example, the ZSH git prompt I use"
 msgstr "Par exemple, le prompt git ZSH que j'utilise"
 
-#: ../../source/presentation.rst:46
+#: ../../source/presentation.rst:48
+msgid "Working with Github"
+msgstr "Travailler avec Github"
+
+#: ../../source/presentation.rst:50
+msgid ""
+"Each project will have a main repository hosted on Github. Even if you are "
+"part of the core developers, you will use the main repository only to push "
+"changes on the ``develop`` and ``master`` branches. All other branches will be "
+"created on a fork (use the eponym button at the top of the project - see "
+"below) you will create on your account."
+msgstr ""
+"Chaque projet aura un dépôt principal hébergé sur Github. Même si vous faites "
+"partie des développeurs principaux, vous n'utiliserez le dépôt principal que "
+"pour pousser les modifications des branches ``develop`` et ``master``. Toutes "
+"les autres branches devront être créées sur un fork (utilisez le bouton "
+"éponyme en haut de la page du projet - voir ci-dessous) que vous allez créer "
+"sur votre compte."
+
+#: ../../source/presentation.rst:56
+msgid "The fork button"
+msgstr "Le bouton fork"
+
+#: ../../source/presentation.rst:62
+msgid "The forked repo on my personnal account"
+msgstr "Le dépôt forké sur mon compte personnel"
+
+#: ../../source/presentation.rst:64
+msgid ""
+"From the main repository you've cloned the project to, add a new remote, let's "
+"say naming as your github username (name does not matter, just remember what "
+"you choose, and stay consistent accross projects). Replacing "
+"``{github_username}`` with your own username, run the following:"
+msgstr ""
+"Depuis votre copie de travail, ajouter un nouveau remote, que vous nommerez "
+"par exemple comme votre compte github (le nom n'a pas d'importance, il suffit "
+"que vous vous en souveniez, et que vous restiez cohérent dans les autres "
+"projets). En prenant soin de remplacer ``{github_username}`` avec votre propre "
+"nom d'utilisateur, lancez :"
+
+#: ../../source/presentation.rst:70
+msgid ""
+"All branchs you will create that must be reviewed will be pushed to your fork."
+msgstr ""
+"Toutes les branches que vous allez créer et qui doivent être revues seront "
+"publiées sur votre fork."
+
+#: ../../source/presentation.rst:73
+msgid "Initialization"
+msgstr "Initialisation"
+
+#: ../../source/presentation.rst:75
+msgid ""
+"Initializing git-flow is quite simple, just clone the repository, go to the "
+"``master`` branch and run:"
+msgstr ""
+"Initialiser git-flow est assez simple, clonez le dépôt, aller sur la branche "
+"``master`` et lancfez :"
+
+#: ../../source/presentation.rst:79
+msgid ""
+"When you clone a git repository, the default branch will be checkout. In most "
+"cases, it will be ``master``, but double check."
+msgstr ""
+"Quand vous clonez un dépôt git, la branche par défaut sera utilisée. Dans la "
+"plupart des cas, ce sera ``master``, mais pensez à vérifier."
+
+#: ../../source/presentation.rst:85
+msgid ""
+"You can assume the default answer is correct for all questions. If the "
+"``develop`` branch already exists, it will be used, the process will create it "
+"otherwise."
+msgstr ""
+"Vous pouvez considérer que les réponses par défaut sont toutes correctes. Si "
+"la branche ``develop`` exiset déjà, elle sera utilisée, le processus la créera "
+"sinon."
+
+#: ../../source/presentation.rst:88
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

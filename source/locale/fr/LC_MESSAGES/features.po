@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: git-flow 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-18 11:47+0200\n"
-"PO-Revision-Date: 2016-10-18 11:48+0200\n"
+"POT-Creation-Date: 2016-10-18 14:34+0200\n"
+"PO-Revision-Date: 2016-10-18 14:55+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -92,11 +92,19 @@ msgstr ""
 "Vus êtes sur une branche, vous pouvez faire ce que vous voulez (ou "
 "presque !)."
 
-#: ../../source/features.rst:31
+#: ../../source/features.rst:30
+msgid ""
+"As stated in :ref:`working_with_github`, you will use your fork to push "
+"new branches. You'll achieve that running:"
+msgstr ""
+"Comme décrit dans :ref:`working_with_github`, vous utiliserez votre fork "
+"lors de l'ajout de nouvelles branches. Vous y parviendrez en lançant :"
+
+#: ../../source/features.rst:37
 msgid "Lifetime"
 msgstr "Cycle de vie"
 
-#: ../../source/features.rst:33
+#: ../../source/features.rst:39
 msgid ""
 "Sometimes, nothing happened on the ``develop`` branch until you finish "
 "your feature, and you'll have nothing to take care of."
@@ -105,7 +113,7 @@ msgstr ""
 "vous n'ayez terminé votre feature, vous n'aurez dans ce cas à vous "
 "soucier de rien."
 
-#: ../../source/features.rst:35
+#: ../../source/features.rst:41
 msgid ""
 "But sometimes, some other features have been added, or some bugs have "
 "been fixed... You'll have to keep you feature branch up-to-date. "
@@ -118,7 +126,7 @@ msgstr ""
 "soit à jour (mais vous maintenez toujours votre branche ``develop`` à "
 "jour, n'est-ce pas ? :p) :"
 
-#: ../../source/features.rst:41
+#: ../../source/features.rst:47
 msgid ""
 "This will rebase you feature branch on top of the develop; it sounds "
 "just like you've just created your feature right now and it applies your "
@@ -131,31 +139,50 @@ msgstr ""
 "la présente documentation, mais vous pourrez trouver de nombreuses "
 "ressources là-dessus."
 
-#: ../../source/features.rst:44
+#: ../../source/features.rst:50
+msgid "Pull Request"
+msgstr ""
+
+#: ../../source/features.rst:52
+msgid ""
+"Your feature has been finished, it must now be reviewed before being "
+"merged. Push last changes to your fork, go to your github fork page, "
+"select your branch and clik #New pull request\" button."
+msgstr ""
+
+#: ../../source/features.rst:54
+msgid ""
+"You can provide aditionnal details if any, submit, and wait for another "
+"developer to review your changes! Once accepted, go back to your local "
+"copy, and see the paragraph below."
+msgstr ""
+
+#: ../../source/features.rst:57
 msgid "Finishing"
 msgstr "Finalisation"
 
-#: ../../source/features.rst:46
+#: ../../source/features.rst:59
+#, fuzzy
 msgid ""
-"Once you're done, you can clean up a bit your branch history, squashing "
-"your commits to prevent keeping commit messages like \"oops, I did it "
-"again!\". Assuming your working copy is on the feature branch, you'll "
-"then run:"
+"Once you're done, and your PR has been accepted, you can clean up a bit "
+"your branch history, squashing your commits to prevent keeping commit "
+"messages like \"oops, I did it again!\". Assuming your working copy is "
+"on the feature branch, you'll then run:"
 msgstr ""
 "Une fois temriné, vous pourrez nettoyer un peu l'historique de votre "
 "branche, regrouper vos commit pour éviter de conserver des messages de "
 "commit du type « Oups, j'ai oublié... ». En admettant que votre copie de "
 "travail soit sur la branche de votre feature, lancez :"
 
-#: ../../source/features.rst:52
+#: ../../source/features.rst:65
 msgid "This will do the following:"
 msgstr "Ce qui réalisera les tâches suivantes :"
 
-#: ../../source/features.rst:54
+#: ../../source/features.rst:67
 msgid "merge branch ``feature/my-great-feature`` into ``develop``,"
 msgstr "merge de la branche ``feature/my-great-feature`` dans ``develop``,"
 
-#: ../../source/features.rst:55
+#: ../../source/features.rst:68
 msgid ""
 "ask you for a commit message (default will be \"Merge branch 'feature/my-"
 "great-feature' into develop\")"
@@ -163,11 +190,11 @@ msgstr ""
 "vous demandera un message de commit (qui sera par défaut \"Merge branch "
 "'feature/my-great-feature' into develop\")"
 
-#: ../../source/features.rst:56
+#: ../../source/features.rst:69
 msgid "delete branch ``feature/my-great-feature``"
 msgstr "supprimera la branche ``feature/my-great-feature``"
 
-#: ../../source/features.rst:58
+#: ../../source/features.rst:71
 msgid ""
 "For the the second step, you can just save the message as it; if you've "
 "squashed your commits, you can remove the merge commit simply using:"
@@ -176,11 +203,11 @@ msgstr ""
 "vous avez regroupé vos commits, vous pourrez le supprimer simplement en "
 "utilisant :"
 
-#: ../../source/features.rst:64
+#: ../../source/features.rst:77
 msgid "Or not, it's up to you :)"
 msgstr "Ou pas, à vous de voir :)"
 
-#: ../../source/features.rst:66
+#: ../../source/features.rst:79
 msgid ""
 "You're done, the `my-great-feature` has reached ``develop`` and will be "
 "part of the next release!"
@@ -188,6 +215,6 @@ msgstr ""
 "C'est terminé, `my-great-feature` a été réintégrée dans ``develop`` et "
 "fera partie de la prochaine release !"
 
-#: ../../source/features.rst:69
+#: ../../source/features.rst:82
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
