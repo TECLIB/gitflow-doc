@@ -1,0 +1,10 @@
+git-flow documentation
+======================
+
+[Show git-flow Documentation online!](http://git-flow-documentation.readthedocs.io/en/latest) [![Build Status](https://readthedocs.org/projects/git-flow-documentation/badge/?version=latest)](http://git-flow-documentation.readthedocs.io/en/latest/?badge=latest)
+
+A bit of documentation on the git-flow process, applied on GLPi plugins we at Teclib' maintain.
+
+Current documentation is built on top of [Sphinx documentation generator](http://sphinx-doc.org/). It is released under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons BY-NC-ND 4.0 International License</a>.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
