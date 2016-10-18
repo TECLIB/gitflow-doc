@@ -11,3 +11,4 @@ We've decided to use the `git-flow workflow <http://nvie.com/posts/a-successful-
 .. toctree::
    :maxdepth: 2
 
+   presentation
