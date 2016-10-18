@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: git-flow 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-18 14:34+0200\n"
-"PO-Revision-Date: 2016-10-18 14:55+0200\n"
+"POT-Creation-Date: 2016-10-18 16:13+0200\n"
+"PO-Revision-Date: 2016-10-18 16:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -141,14 +141,18 @@ msgstr ""
 
 #: ../../source/features.rst:50
 msgid "Pull Request"
-msgstr ""
+msgstr "Pull Request"
 
 #: ../../source/features.rst:52
 msgid ""
 "Your feature has been finished, it must now be reviewed before being "
 "merged. Push last changes to your fork, go to your github fork page, "
-"select your branch and clik #New pull request\" button."
+"select your branch and clik \"New pull request\" button."
 msgstr ""
+"Votre feature est terminée, elle doit maintenant être revue avant de "
+"pouvoir être mergée. Poussez les modifications sur votre fork, allez sur "
+"sa page, sélectionnez votre branche et cliquez sur le bouton \"New pull "
+"request\"."
 
 #: ../../source/features.rst:54
 msgid ""
@@ -156,23 +160,27 @@ msgid ""
 "developer to review your changes! Once accepted, go back to your local "
 "copy, and see the paragraph below."
 msgstr ""
+"Vous pouvez fournir des détails complémentaires au besoin, soumettre, et "
+"enfin attendre qu'un autre développer effectue la revue de vos "
+"changements ! Une fois acceptée, retournez sur votre copie de travail, "
+"et suivez les instructions du paragraphe ci-dessous."
 
 #: ../../source/features.rst:57
 msgid "Finishing"
 msgstr "Finalisation"
 
 #: ../../source/features.rst:59
-#, fuzzy
 msgid ""
 "Once you're done, and your PR has been accepted, you can clean up a bit "
 "your branch history, squashing your commits to prevent keeping commit "
 "messages like \"oops, I did it again!\". Assuming your working copy is "
 "on the feature branch, you'll then run:"
 msgstr ""
-"Une fois temriné, vous pourrez nettoyer un peu l'historique de votre "
-"branche, regrouper vos commit pour éviter de conserver des messages de "
-"commit du type « Oups, j'ai oublié... ». En admettant que votre copie de "
-"travail soit sur la branche de votre feature, lancez :"
+"Une fois terminé, et votre PR acceptée, vous pourrez nettoyer un peu "
+"l'historique de votre branche, regrouper vos commit pour éviter de "
+"conserver des messages de commit du type « Oups, j'ai oublié... ». En "
+"admettant que votre copie de travail soit sur la branche de votre "
+"feature, lancez :"
 
 #: ../../source/features.rst:65
 msgid "This will do the following:"
