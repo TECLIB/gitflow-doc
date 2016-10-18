@@ -49,7 +49,7 @@ This will rebase you feature branch on top of the develop; it sounds just like y
 Pull Request
 ------------
 
-Your feature has been finished, it must now be reviewed before being merged. Push last changes to your fork, go to your github fork page, select your branch and clik #New pull request" button.
+Your feature has been finished, it must now be reviewed before being merged. Push last changes to your fork, go to your github fork page, select your branch and clik "New pull request" button.
 
 You can provide aditionnal details if any, submit, and wait for another developer to review your changes! Once accepted, go back to your local copy, and see the paragraph below.
 
