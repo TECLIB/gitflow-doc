@@ -30,9 +30,9 @@ So, yes, you're ready to go! Just hack, commit, push, ... You're on a branch, yo
 Lifetime
 --------
 
-Sometimes, nothing happend on the ``develop`` branch until you finish your feature, and you'll have nothing to take care of.
+Sometimes, nothing happened on the ``develop`` branch until you finish your feature, and you'll have nothing to take care of.
 
-But sometimes, isome other features have been added, or some bugs have been fixed... You'll have to keep you feature branch up-to-date. Considering you ``develop`` branch has been updated (you always keep your ``develop`` updated, don't you? :p):
+But sometimes, some other features have been added, or some bugs have been fixed... You'll have to keep you feature branch up-to-date. Considering your ``develop`` branch has been updated (you always keep your ``develop`` updated, don't you? :p):
 
 .. code-block:: bash
 

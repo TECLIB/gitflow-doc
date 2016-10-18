@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the git-flow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: git-flow 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-18 11:47+0200\n"
+"PO-Revision-Date: 2016-10-18 11:48+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../source/features.rst:2
+msgid "Features"
+msgstr "Features"
+
+#: ../../source/features.rst:6
+msgid ""
+"Be carefull your ``develop`` branch is up-to-date before starting or "
+"finishing a feature! Even if you can quite easily fix that ;)"
+msgstr ""
+"Prenez garde à ce que votre branche ``devleop`` soit bien à jour avant "
+"de créer ou de terminer une feature ! Même si ça peut se corrige r assez "
+"facilement ;)"
+
+#: ../../source/features.rst:8
+msgid ""
+"This possibility will be used to implement new features in the project. "
+"Features are designed to be created from the ``develop`` branch, and "
+"reintegrated in the ``develop`` branch as well."
+msgstr ""
+"Cette possibilité sera utilisée pour implémenter de nouvelles "
+"fonctionnalités dans le projet. Les features sont prévue pour être "
+"créées depuis la branche ``devleop`` et pour être réintégrées dans la "
+"branche ``devleop`` également."
+
+#: ../../source/features.rst:12
+msgid ""
+"You can have as many features as you want on a project; you'll see at "
+"usage than working with too many features can be a kind of nightmare; as "
+"well as long running ones ;)"
+msgstr ""
+"Vous pouvez avoir autant de feature que vous le souhaitez sur un "
+"projet ; mais vous vous apercevrez à l'usage que de travailler avec de "
+"trop nombreuses features peut rapidement devenir cauchemardesque, tout "
+"comme en maintenir trop longtemps ;)"
+
+#: ../../source/features.rst:15
+msgid "Creation"
+msgstr "Création"
+
+#: ../../source/features.rst:17
+msgid ""
+"The name of the feature is up to you, choose something simple and short, "
+"describing what you are doing. To start a feature named `my-great-"
+"feature` you'll use:"
+msgstr ""
+"Le nom de la feature est à votre entière appréciation, choisissez "
+"quelque chose de simple et court, qui décrit ce que vous allez faire. "
+"Pour créer une feature nommée ``my-great-feature``, vous entrerez :"
+
+#: ../../source/features.rst:23
+msgid "This will automatically do the following:"
+msgstr "Ce qui réalisera automatiquement les tâches suivantes :"
+
+#: ../../source/features.rst:25
+msgid ""
+"create a new branch named ``feature/my-great-feature`` from the "
+"``develop`` branch,"
+msgstr ""
+"créer une nouvelle branche ``feature/my-great-feature`` depuis la "
+"branche ``develop``,"
+
+#: ../../source/features.rst:26
+msgid "checkout the ``feature/my-great-feature`` branch."
+msgstr "effecturea un checkout de la branche ``feature/my-great-feature``."
+
+#: ../../source/features.rst:28
+msgid ""
+"So, yes, you're ready to go! Just hack, commit, push, ... You're on a "
+"branch, you can do what you want (well... almost!)."
+msgstr ""
+"Donc, oui, vous êtes parés à travailler ! Codez, commitez, poussez, ... "
+"Vus êtes sur une branche, vous pouvez faire ce que vous voulez (ou "
+"presque !)."
+
+#: ../../source/features.rst:31
+msgid "Lifetime"
+msgstr "Cycle de vie"
+
+#: ../../source/features.rst:33
+msgid ""
+"Sometimes, nothing happened on the ``develop`` branch until you finish "
+"your feature, and you'll have nothing to take care of."
+msgstr ""
+"Parfois, il ne s'est rien passé sur la branche ``develop`` avant que "
+"vous n'ayez terminé votre feature, vous n'aurez dans ce cas à vous "
+"soucier de rien."
+
+#: ../../source/features.rst:35
+msgid ""
+"But sometimes, some other features have been added, or some bugs have "
+"been fixed... You'll have to keep you feature branch up-to-date. "
+"Considering your ``develop`` branch has been updated (you always keep "
+"your ``develop`` updated, don't you? :p):"
+msgstr ""
+"Mais parfois, il est possible que d'autres features aient été ajoutées, "
+"ou que des bogues aient été corrigés... Vous devrez donc maintenir votre "
+"branche feature à jour. En considérant que votre branche ``develop`` "
+"soit à jour (mais vous maintenez toujours votre branche ``develop`` à "
+"jour, n'est-ce pas ? :p) :"
+
+#: ../../source/features.rst:41
+msgid ""
+"This will rebase you feature branch on top of the develop; it sounds "
+"just like you've just created your feature right now and it applies your "
+"commit one by one on the top. Explaining rebasing is out of the scope of "
+"the current documentation, but you'll find many resources on it."
+msgstr ""
+"Cela va rebaser votre branche feature par dessus le develop; comme si "
+"vous veniez juste de la créer. Vos commits seront appliqués un à un par "
+"dessus. Expliquer le fonctionnement du rebase est hors de la portée de "
+"la présente documentation, mais vous pourrez trouver de nombreuses "
+"ressources là-dessus."
+
+#: ../../source/features.rst:44
+msgid "Finishing"
+msgstr "Finalisation"
+
+#: ../../source/features.rst:46
+msgid ""
+"Once you're done, you can clean up a bit your branch history, squashing "
+"your commits to prevent keeping commit messages like \"oops, I did it "
+"again!\". Assuming your working copy is on the feature branch, you'll "
+"then run:"
+msgstr ""
+"Une fois temriné, vous pourrez nettoyer un peu l'historique de votre "
+"branche, regrouper vos commit pour éviter de conserver des messages de "
+"commit du type « Oups, j'ai oublié... ». En admettant que votre copie de "
+"travail soit sur la branche de votre feature, lancez :"
+
+#: ../../source/features.rst:52
+msgid "This will do the following:"
+msgstr "Ce qui réalisera les tâches suivantes :"
+
+#: ../../source/features.rst:54
+msgid "merge branch ``feature/my-great-feature`` into ``develop``,"
+msgstr "merge de la branche ``feature/my-great-feature`` dans ``develop``,"
+
+#: ../../source/features.rst:55
+msgid ""
+"ask you for a commit message (default will be \"Merge branch 'feature/my-"
+"great-feature' into develop\")"
+msgstr ""
+"vous demandera un message de commit (qui sera par défaut \"Merge branch "
+"'feature/my-great-feature' into develop\")"
+
+#: ../../source/features.rst:56
+msgid "delete branch ``feature/my-great-feature``"
+msgstr "supprimera la branche ``feature/my-great-feature``"
+
+#: ../../source/features.rst:58
+msgid ""
+"For the the second step, you can just save the message as it; if you've "
+"squashed your commits, you can remove the merge commit simply using:"
+msgstr ""
+"Pour la seconde étape, vous pouvez juste laisser le message tel que ; si "
+"vous avez regroupé vos commits, vous pourrez le supprimer simplement en "
+"utilisant :"
+
+#: ../../source/features.rst:64
+msgid "Or not, it's up to you :)"
+msgstr "Ou pas, à vous de voir :)"
+
+#: ../../source/features.rst:66
+msgid ""
+"You're done, the `my-great-feature` has reached ``develop`` and will be "
+"part of the next release!"
+msgstr ""
+"C'est terminé, `my-great-feature` a été réintégrée dans ``develop`` et "
+"fera partie de la prochaine release !"
+
+#: ../../source/features.rst:69
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

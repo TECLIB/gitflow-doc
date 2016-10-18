@@ -6,15 +6,15 @@ Presentation
 .. image:: _static/images/gitflow.png
    :scale: 25%
 
-Keep in mind that it is just designed to get something standardized; all the background use standard git commands, you can achieve "manually" everything git-flow propose. It is just simplier to use, and it prevents to use the incorerect branch, or to forget about merging somewhere.
+Keep in mind that it is just designed to get something standardized; all the background use standard git commands, you can achieve "manually" everything git-flow propose. It is just simplier to use, and it prevents to use the incorect branch, or to forget about merging somewhere.
 
-It is not the goal of the present documentation to list pros and cons of this model, we'll note that it is not designed to get long running support branches, it has been once something that would have been implmented; but it has not been done.
+It is not the goal of the present documentation to list pros and cons of this model, we'll note that it is not designed to get long running support branches, it has been once something that would have been implemented; but it has not been done.
 
 According to the semantic `versionning rules <http://semver.org>`_:
 
-* you'll add features only for *major* or *minor* versions,
-* you'll release *major* or *minor* versions,
-* you'll hotfix *patch* versions.
+* you'll add ``features`` only for *major* or *minor* versions,
+* you'll ``release`` *major* or *minor* versions,
+* you'll ``hotfix`` *patch* versions.
 
 Conventions
 -----------
