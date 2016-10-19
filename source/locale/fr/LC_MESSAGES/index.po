@@ -32,7 +32,7 @@ msgstr ""
 "Nous avons décidé d'utiliser le `workflow git-flow <http://nvie.com/"
 "posts/a-successful-git-branching-model/>`_ pour les plugins GLPi que "
 "nous maintenons. La présente documentation montrera certains cas de "
-"figure, quelels commandes utiliser et quand y avoir recours."
+"figure, quelles commandes utiliser et quand y avoir recours."
 
 #: ../../source/index.rst:21
 msgid "|ccbyncnd|"
