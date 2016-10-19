@@ -1,7 +1,7 @@
 git-flow documentation
 ======================
 
-[Show git-flow Documentation online!](http://git-flow-documentation.readthedocs.io/en/latest) [![Build Status](https://readthedocs.org/projects/git-flow-documentation/badge/?version=latest)](http://git-flow-documentation.readthedocs.io/en/latest/?badge=latest)
+[Show git-flow Documentation online!](http://git-flow.readthedocs.io/en/latest) [![Build Status](https://readthedocs.org/projects/git-flow/badge/?version=latest)](http://git-flow.readthedocs.io/en/latest/?badge=latest)
 
 A bit of documentation on the git-flow process, applied on GLPi plugins we at Teclib' maintain.
 
