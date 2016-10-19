@@ -110,17 +110,17 @@ Should I merge or should I rebase? Well, it's up to you!
 
 I do not want to feed any troll; both have pros and cons. My advice would be to avoid merge commits when it is not required. I'll try to explain some common cases, and the way I do manage them with the few following examples...
 
-You work on a feature; all that ends once squashed into one only commit. By default, the git-flow process will add your commit on the ``develop`` branch and will add an (empty) merge commit also. This one is really not required, it only make history less readable. If the merge commit is not empty, this begin to be more complicated; you probably miss a ``git flow feature rebase`` somewhere.
+You work on a `feature`; all that ends once squashed into one only commit. By default, the git-flow process will add your commit on the ``develop`` branch and will add an (empty) merge commit also. This one is really not required, it only make history less readable. If the merge commit is not empty, this begin to be more complicated; you probably miss a ``git flow feature rebase`` somewhere.
 
-Conclusion: use **rebase**.
+Conclusion: use **rebase**
 
 You've added a hotfix, again one only commmit. git-flow will create merge commits as well. For instance, I'm used to keep those commits, this is a visual trace in the history of what has been done regarding bug fixes.
 
 Conclusion: use **merge**
 
-You've finished a `feature`, just someone else... But other side changes have already been pushed to remote ``develop``. If you run ``(develop) $ git push``, you will be informed that you cannot push because remote has changed.
+You've finished a `feature`, just like someone else... But other side changes have already been pushed to remote ``develop``. If you run ``(develop) $ git push``, you will be informed that you cannot push because remote has changed.
 
-I guess many will just run a ``(develop) $ git pull`` in that case, that will add a merge commit in your history. Thos merge commits are really annonying searching in history, whether they're empty or not. As an alternative, you can run ``(develop) $ git pull --rebase``.
+I guess many will just run a ``(develop) $ git pull`` in that case, that will add a merge commit in your history. Those merge commits are really annonying searching in history, whether they're empty or not. As an alternative, you can run ``(develop) $ git pull --rebase``, this will prevent the merge comit.
 
 Conclusion: use **rebase**
 

@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the git-flow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: git-flow 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-19 09:53+0200\n"
+"PO-Revision-Date: 2016-10-19 10:15+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../../source/references.rst:2
+msgid "References"
+msgstr "Références"
+
+#: ../../source/references.rst:4
+msgid "A few references and links relative to git-flow."
+msgstr "Quelques références et liens sur git-flow."
+
+#: ../../source/references.rst:6
+msgid ""
+"`model explained <http://nvie.com/posts/a-successful-git-branching-model/"
+">`_ (original author)"
+msgstr ""
+"`explication du modèle <http://nvie.com/posts/a-successful-git-branching-"
+"model/>`_ (auteur original)"
+
+#: ../../source/references.rst:7
+msgid "`git extension <https://github.com/nvie/gitflow>` (original author)"
+msgstr ""
+"`extension git <https://github.com/nvie/gitflow>` (auteur original)"
+
+#: ../../source/references.rst:8
+msgid ""
+"`a quick tutorial <http://jeffkreeftmeijer.com/2010/why-arent-you-using-"
+"git-flow/>`_"
+msgstr ""
+"`un petit tutoriel <http://jeffkreeftmeijer.com/2010/why-arent-you-using-"
+"git-flow/>`_"
+
+#: ../../source/references.rst:9
+msgid ""
+"`another tutorial, by Atlassian <https://www.atlassian.com/git/tutorials/"
+"comparing-workflows/gitflow-workflow>`_"
+msgstr ""
+"`un autre tutoriel, par Atlassian <https://www.atlassian.com/git/"
+"tutorials/comparing-workflows/gitflow-workflow>`_"
+
+#: ../../source/references.rst:10
+msgid ""
+"`a cheat sheet <http://danielkummer.github.io/git-flow-cheatsheet/index."
+"fr_FR.html>`_"
+msgstr ""
+"`un cheat sheet <http://danielkummer.github.io/git-flow-cheatsheet/index."
+"fr_FR.html>`_"
+
+#: ../../source/references.rst:11
+msgid ""
+"`a french video tutorial <https://www.grafikart.fr/formations/git/git-"
+"flow>`_"
+msgstr ""
+"`un tutoriel vidéo en français <https://www.grafikart.fr/formations/git/"
+"git-flow>`_"
+
+#: ../../source/references.rst:12
+msgid ""
+"`stack overflow questions <http://stackoverflow.com/questions/tagged/git-"
+"flow>`_"
+msgstr ""
+"`questions stack overflow <http://stackoverflow.com/questions/tagged/git-"
+"flow>`_"
+
+#: ../../source/references.rst:15
+msgid "Tools"
+msgstr "Outils"
+
+#: ../../source/references.rst:17
+msgid ""
+"Well, I do use `vim <http://www.vim.org/>`_ to code, and the `git "
+"extension <https://github.com/nvie/gitflow>`_ to manage my worflow; even "
+"if some vim plugins exists; I do not use them."
+msgstr ""
+"J'utilise `vim <http://www.vim.org/>`_ pour coder, et `l'extension git "
+"<https://github.com/nvie/gitflow>`_ pour gérer mon git-flow ; et bien "
+"que des plugins spécifiques existent, je ne les utilise pas "
+"personnellement."
+
+#: ../../source/references.rst:19
+msgid ""
+"Anyways, if you use a tool that implements git-flow natively or with a "
+"plugin; feel free to open a PR on the current doc!"
+msgstr ""
+"Dans tous les cas, si vous utilisez un outil qui implémente git-flow "
+"nativement ou via un plugin, n'hésitez pas à ouvrir une PR sur cette "
+"documentation !"
+
+#: ../../source/references.rst:22
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
