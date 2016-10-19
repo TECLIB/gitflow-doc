@@ -83,3 +83,55 @@ Initializing git-flow is quite simple, just clone the repository, go to the ``ma
    (master) $ git flow init
 
 You can assume the default answer is correct for all questions. If the ``develop`` branch already exists, it will be used, the process will create it otherwise.
+
+Not finished process
+--------------------
+
+On some occasions, a git-flow command may not finish (in case of conflict, for exemple). This is really not a problem since its fully managed :)
+
+If a git-flow process is stopped, just fix the issue and run the same command again. It will simply run all tasks remaining.
+
+.. note::
+
+   To be sure everything worked as expected, always take a close look at the ouptut!
+
+.. _merge-vs-rebase:
+
+merge vs rebase
+---------------
+
+Should I merge or should I rebase? Well, it's up to you!
+
+.. warning::
+
+   Even if both solutions can be used, and you can choose one or another on some cases; always remember that a ``rebase`` can be destructive! Keep that in mind.
+
+   In facts, you can repair a rebase issue, but only on your local workspace (using ``reflog``). Note this is really something you should not use if you're not a git expert ;)
+
+I do not want to feed any troll; both have pros and cons. My advice would be to avoid merge commits when it is not required. I'll try to explain some common cases, and the way I do manage them with the few following examples...
+
+You work on a feature; all that ends once squashed into one only commit. By default, the git-flow process will add your commit on the ``develop`` branch and will add an (empty) merge commit also. This one is really not required, it only make history less readable. If the merge commit is not empty, this begin to be more complicated; you probably miss a ``git flow feature rebase`` somewhere.
+
+Conclusion: use **rebase**.
+
+You've added a hotfix, again one only commmit. git-flow will create merge commits as well. For instance, I'm used to keep those commits, this is a visual trace in the history of what has been done regarding bug fixes.
+
+Conclusion: use **merge**
+
+You've finished a `feature`, just someone else... But other side changes have already been pushed to remote ``develop``. If you run ``(develop) $ git push``, you will be informed that you cannot push because remote has changed.
+
+I guess many will just run a ``(develop) $ git pull`` in that case, that will add a merge commit in your history. Thos merge commits are really annonying searching in history, whether they're empty or not. As an alternative, you can run ``(develop) $ git pull --rebase``.
+
+Conclusion: use **rebase**
+
+.. figure:: /_static/images/history-mreporting.png
+   :scale: 50%
+   :align: center
+
+   An example history (from the `mreporting plugin <https://github.com/pluginsGLPI/mreporting/>`_).
+
+.. figure:: /_static/images/history-galette.png
+   :scale: 50%
+   :align: center
+
+   Another example history (from the `Galette project <http://galette.eu>`_).

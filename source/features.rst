@@ -74,6 +74,6 @@ For the the second step, you can just save the message as it; if you've squashed
 
    (develop) $ git rebase -i
 
-Or not, it's up to you :)
+Or not, :ref:`it's up to you <merge-vs-rebase>` :)
 
-You're done, the `my-great-feature` has reached ``develop`` and will be part of the next release!
+Finally, push the ``develop`` branch for remote repository to be updated! And then you're done, the `my-great-feature` has reached ``develop`` and will be part of the next release! Congratulations \o/
