@@ -3,13 +3,13 @@ Hotfix
 
 .. warning::
 
-   Be carefull your ``master`` branch is up-to-date before starting a hotfix, and both your ``master`` and ``develop`` branches are up-to-date before finishing it!
+   Be carefull your ``master`` branch is up-to-date before starting a `hotfix`, and both your ``master`` and ``develop`` branches are up-to-date before finishing it!
 
 You will use `hotfix` to fix bugs against the latest stable release of the project, no matter it was a *major, a *minor* or another *patch*.
 
 .. note::
 
-   You can have **only one** hotfix at the same time!
+   You can have **only one** `hotfix` at the same time!
 
 Creation
 --------
@@ -28,9 +28,9 @@ This will automatically do the following:
 Lifetime
 --------
 
-Just like :doc:`features`, you will have nothing to do if there were no changes on the master branch since you've created your `hotfix`.
+Just like :doc:`features`, you will have nothing to do if there were no changes on the ``master`` branch since you've created your `hotfix`.
 
-If something has changed in the master, that means another `hotfix` has already been done, which also means that the version you are using is probably incorrect now. In that case, you will have to:
+If something has changed in the ``master``, that means another `hotfix` has already been done, which also means that the version you are using is probably incorrect now. In that case, you will have to:
 
 * rename your `hotfix` branch,
 * update the code
