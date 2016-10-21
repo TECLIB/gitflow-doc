@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: git-flow 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-19 09:53+0200\n"
-"PO-Revision-Date: 2016-10-19 16:51+0200\n"
+"POT-Creation-Date: 2016-10-21 10:49+0200\n"
+"PO-Revision-Date: 2016-10-21 11:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28,16 +28,22 @@ msgid ""
 "and both your ``master`` and ``develop`` branches are up-to-date before "
 "finishing it!"
 msgstr ""
+"Prenez garde à ce que votre branche ``master`` soit bien à jour avant de "
+"créer un `hotfix`, et que vos branche ``master`` et ``develop`` soient "
+"toutes deux à jour avant de le terminer !"
 
 #: ../../source/hotfix.rst:8
 msgid ""
 "You will use `hotfix` to fix bugs against the latest stable release of the "
 "project, no matter it was a *major, a *minor* or another *patch*."
 msgstr ""
+"Vous utilisez un ``hotifx`` pour corriger des bogues dans la dernière "
+"version stable du projet, peu importe qu'il s'agisse d'une version "
+"*majeure*, *mineure* ou *patch*."
 
 #: ../../source/hotfix.rst:12
 msgid "You can have **only one** hotfix at the same time!"
-msgstr ""
+msgstr "Vous ne pouvez créer **qu'un seul** `hotfix` à la fois !"
 
 #: ../../source/hotfix.rst:15
 msgid "Creation"
@@ -48,18 +54,22 @@ msgid ""
 "The name of the hotfix must be the release it will become. If the latest "
 "release was `1.3.2`; you'll want to create a `1.3.3` hotfix using:"
 msgstr ""
+"Le nom du hotfix doit être la version qu'il va devenir. Si la dernière "
+"version était `1.3.2` ; vous créerez un hotfix `1.3.3` en utilisant :"
 
 #: ../../source/hotfix.rst:23
 msgid "This will automatically do the following:"
-msgstr ""
+msgstr "Ce qui réalisera automatiquement les tâches suivantes :"
 
 #: ../../source/hotfix.rst:25
 msgid "create a new branch named ``hotfix/1.3.3`` from the ``master`` branch,"
 msgstr ""
+"création d'une nouvelle branche nommée ``hotfix/1.3.3`` depuis la branche "
+"``master``,"
 
 #: ../../source/hotfix.rst:26
 msgid "checkout the ``hotfix/1.3.3`` branch."
-msgstr ""
+msgstr "récupération (``checkout``) de la branche  ``hotfix/1.3.3``"
 
 #: ../../source/hotfix.rst:29
 msgid "Lifetime"
@@ -70,6 +80,9 @@ msgid ""
 "Just like :doc:`features`, you will have nothing to do if there were no "
 "changes on the master branch since you've created your `hotfix`."
 msgstr ""
+"Tout comme les :doc:`features`, vous n'aurez rien à faire si aucun "
+"changement n'est intervenu sur la branche ``master`` depuis que vous avez "
+"créé votre `hotfix`."
 
 #: ../../source/hotfix.rst:33
 msgid ""
@@ -77,20 +90,26 @@ msgid ""
 "already been done, which also means that the version you are using is "
 "probably incorrect now. In that case, you will have to:"
 msgstr ""
+"Si quelque chose a changé dans le ``master``, cela signifie qu'un autre "
+"`hotfix` a été réintégré, et cela signifie également que la version que "
+"vous utilisez est probablement incorrecte maintenant. Dans ce cas, vous "
+"devrez :"
 
 #: ../../source/hotfix.rst:35
 msgid "rename your `hotfix` branch,"
-msgstr ""
+msgstr "renommer votre branche `hotfix`"
 
 #: ../../source/hotfix.rst:36
 msgid "update the code"
-msgstr ""
+msgstr "mettre le code à jour"
 
 #: ../../source/hotfix.rst:38
 msgid ""
 "Assuming the `1.3.3` version has been released from another `hotfix`, you "
 "will work on the `1.3.4` version:"
 msgstr ""
+"En partant du principe que la version `1.3.3` a été publiée depuis un autre "
+"`hotfix`, vous travaillerez sur la version `1.3.4` :"
 
 #: ../../source/hotfix.rst:46
 msgid "Pull Request"
@@ -102,6 +121,9 @@ msgid ""
 "merged. Push last changes to your fork, go to your github fork page, select "
 "your branch and clik \"New pull request\" button."
 msgstr ""
+"Votre `hotfix` est terminé, il doit maintenant être revu avant de pouvoir "
+"être mergé. Poussez les modifications sur votre fork, allez sur sa page, "
+"sélectionnez votre branche et cliquez sur le bouton \"new pull request\"."
 
 #: ../../source/hotfix.rst:50
 msgid ""
@@ -109,60 +131,73 @@ msgid ""
 "developer to review your changes! Once accepted, go back to your local "
 "copy, and see the paragraph below."
 msgstr ""
+"Vous pouvez fournir des détails complémentaires au besoin, soumettre, et "
+"enfin attendre qu'un autre développeur effectue la revue de vos "
+"changements ! Une fois acceptée, retournez sur votre copie de travail, et "
+"suivez les instructions du paragraphe ci-dessous."
 
 #: ../../source/hotfix.rst:53
 msgid "Finishing"
 msgstr "Finalisation"
 
 #: ../../source/hotfix.rst:57
-msgid "Before running the commands to end you `hotfix`, make sure that:"
+msgid "Before running the commands to end your `hotfix`, make sure that:"
 msgstr ""
+"Avant de lancer les commandes pour terminer votre `hotfix`, assurez-vous "
+"que :"
 
 #: ../../source/hotfix.rst:59
 msgid "your ``master`` branch is up-to-date"
-msgstr ""
+msgstr "votre branche ``master`` soit à jour"
 
 #: ../../source/hotfix.rst:60
 msgid ""
 "no other `hotfix` using the same version number has been merged (use ``git "
 "tag | sort -V``)"
 msgstr ""
+"aucun autre `hotfix` utilisant la même version n'ait été mergé (utilisez "
+"``git tag | sort -V``)"
 
 #: ../../source/hotfix.rst:64
 msgid ""
 "You **have to use Git command line, and not Github facilities** to finish "
 "the hotfix!"
 msgstr ""
+"Vous **devez utiliser Git en ligne de commande, et non les possibilités de "
+"Github** pour terminer le hotfix !"
 
 #: ../../source/hotfix.rst:66
-msgid "Finishing a hotfix is as simple as:"
-msgstr ""
+msgid "Finishing a `hotfix` is as simple as:"
+msgstr "Terminer un `hotifx` est aussi simple que :"
 
 #: ../../source/hotfix.rst:72
 msgid "This will:"
-msgstr ""
+msgstr "Cale va :"
 
 #: ../../source/hotfix.rst:74
 msgid "Merge changes into the ``master`` branch,"
-msgstr ""
+msgstr "Merger les changements dans la branche ``master``,"
 
 #: ../../source/hotfix.rst:75
 msgid "Create a ``1.3.4`` tag,"
-msgstr ""
+msgstr "Créer un tag ``1.3.4``,"
 
 #: ../../source/hotfix.rst:76
 msgid "Merge changes into the ``develop`` branch,"
-msgstr ""
+msgstr "Merger les changements dans la branche ``develop``,"
 
 #: ../../source/hotfix.rst:77
 msgid "Remove your local ``hotfix\\1.3.4`` branch."
-msgstr ""
+msgstr "Supprimer votre branche ``hotfix/1.3.4`` locale."
 
 #: ../../source/hotfix.rst:79
 msgid ""
 "Once your `hotfix` has been finished; you'll have to push ``master``, "
 "``develop`` and ``tags`` and also remove remote ``hotfix/1.3.4`` branch:"
 msgstr ""
+"Une fois que votre `hotfix` est terminé ; vous devrez pousser ``master``, "
+"``develop`` ainsi que les ``tags``, et aussi supprimer la branche "
+"``hotfix/1.3.4`` distante :"
 
 #: ../../source/hotfix.rst:90
 msgid "|ccbyncnd|"
