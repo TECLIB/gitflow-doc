@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: git-flow 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-19 09:53+0200\n"
-"PO-Revision-Date: 2016-10-19 10:15+0200\n"
+"POT-Creation-Date: 2016-10-21 10:49+0200\n"
+"PO-Revision-Date: 2016-10-21 10:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "Language: fr\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
@@ -36,8 +36,7 @@ msgstr ""
 
 #: ../../source/references.rst:7
 msgid "`git extension <https://github.com/nvie/gitflow>` (original author)"
-msgstr ""
-"`extension git <https://github.com/nvie/gitflow>` (auteur original)"
+msgstr "`extension git <https://github.com/nvie/gitflow>` (auteur original)"
 
 #: ../../source/references.rst:8
 msgid ""
@@ -79,22 +78,63 @@ msgstr ""
 "`questions stack overflow <http://stackoverflow.com/questions/tagged/git-"
 "flow>`_"
 
-#: ../../source/references.rst:15
+#: ../../source/references.rst:16
+msgid "Some links about git itself:"
+msgstr "Quelques liens à propos de Git lui-même :"
+
+#: ../../source/references.rst:18
+msgid "`official website <https://git-scm.com/>`_"
+msgstr "`site web officiel <https://git-scm.com/>`_"
+
+#: ../../source/references.rst:19
+msgid ""
+"`the ProGit book <https://git-scm.com/book>`_ you can view online or "
+"download for free; and that has also been printed"
+msgstr ""
+"`le livre ProGit <https://git-scm.com/book>`_ visible en ligne ou "
+"téléchargeable ; il a également été imprimé"
+
+#: ../../source/references.rst:20
+msgid ""
+"`Atlassian tutorials <https://www.atlassian.com/git/tutorials/learn-git-"
+"with-bitbucket-cloud>`_"
+msgstr ""
+"`tutoriels Atlassian <https://www.atlassian.com/git/tutorials/learn-git-"
+"with-bitbucket-cloud>`_"
+
+#: ../../source/references.rst:21
+msgid ""
+"`an interactive cheat sheet <http://ndpsoftware.com/git-cheatsheet."
+"html>`_ (I find this one really usefull to understand all interactions "
+"and \"levels\""
+msgstr ""
+"`un cheat sheet interactif <http://ndpsoftware.com/git-cheatsheet.html>`_ "
+"que je trouve particulièrement intéressant pour comprendre les "
+"interactions et les différents niveaux"
+
+#: ../../source/references.rst:22
+msgid ""
+"`a Stanford publication <http://www-cs-students.stanford.edu/~blynn/"
+"gitmagic/>`_ with several translations"
+msgstr ""
+"`une publication Stanford <http://www-cs-students.stanford.edu/~blynn/"
+"gitmagic/>`_ avec plusieurs traductions"
+
+#: ../../source/references.rst:25
 msgid "Tools"
 msgstr "Outils"
 
-#: ../../source/references.rst:17
+#: ../../source/references.rst:27
 msgid ""
 "Well, I do use `vim <http://www.vim.org/>`_ to code, and the `git "
 "extension <https://github.com/nvie/gitflow>`_ to manage my worflow; even "
 "if some vim plugins exists; I do not use them."
 msgstr ""
 "J'utilise `vim <http://www.vim.org/>`_ pour coder, et `l'extension git "
-"<https://github.com/nvie/gitflow>`_ pour gérer mon git-flow ; et bien "
-"que des plugins spécifiques existent, je ne les utilise pas "
-"personnellement."
+"<https://github.com/nvie/gitflow>`_ pour gérer mon git-flow ; et bien que "
+"des plugins spécifiques existent, je ne les utilise pas personnellement."
 
-#: ../../source/references.rst:19
+#: ../../source/references.rst:29
 msgid ""
 "Anyways, if you use a tool that implements git-flow natively or with a "
 "plugin; feel free to open a PR on the current doc!"
@@ -103,6 +143,6 @@ msgstr ""
 "nativement ou via un plugin, n'hésitez pas à ouvrir une PR sur cette "
 "documentation !"
 
-#: ../../source/references.rst:22
+#: ../../source/references.rst:32
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

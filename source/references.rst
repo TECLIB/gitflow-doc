@@ -11,6 +11,16 @@ A few references and links relative to git-flow.
 * `a french video tutorial <https://www.grafikart.fr/formations/git/git-flow>`_
 * `stack overflow questions <http://stackoverflow.com/questions/tagged/git-flow>`_
 
+.. _gitdoc:
+
+Some links about git itself:
+
+* `official website <https://git-scm.com/>`_
+* `the ProGit book <https://git-scm.com/book>`_ you can view online or download for free; and that has also been printed
+* `Atlassian tutorials <https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud>`_
+* `an interactive cheat sheet <http://ndpsoftware.com/git-cheatsheet.html>`_ (I find this one really usefull to understand all interactions and "levels"
+* `a Stanford publication <http://www-cs-students.stanford.edu/~blynn/gitmagic/>`_ with several translations
+
 Tools
 -----
 
