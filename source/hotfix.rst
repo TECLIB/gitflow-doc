@@ -54,7 +54,7 @@ Finishing
 
 .. warning::
 
-   Before running the commands to end you `hotfix`, make sure that:
+   Before running the commands to end your `hotfix`, make sure that:
 
    * your ``master`` branch is up-to-date
    * no other `hotfix` using the same version number has been merged (use ``git tag | sort -V``)
@@ -63,7 +63,7 @@ Finishing
 
    You **have to use Git command line, and not Github facilities** to finish the hotfix!
 
-Finishing a hotfix is as simple as:
+Finishing a `hotfix` is as simple as:
 
 .. code-block:: bash
 
