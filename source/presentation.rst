@@ -114,13 +114,13 @@ You work on a `feature`; all that ends once squashed into one only commit. By de
 
 Conclusion: use **rebase**
 
-You've added a hotfix, again one only commmit. git-flow will create merge commits as well. For instance, I'm used to keep those commits, this is a visual trace in the history of what has been done regarding bug fixes.
+You've added a hotfix, again one only commit. git-flow will create merge commits as well. For instance, I'm used to keep those commits, this is a visual trace in the history of what has been done regarding bug fixes.
 
 Conclusion: use **merge**
 
 You've finished a `feature`, just like someone else... But other side changes have already been pushed to remote ``develop``. If you run ``(develop) $ git push``, you will be informed that you cannot push because remote has changed.
 
-I guess many will just run a ``(develop) $ git pull`` in that case, that will add a merge commit in your history. Those merge commits are really annonying searching in history, whether they're empty or not. As an alternative, you can run ``(develop) $ git pull --rebase``, this will prevent the merge comit.
+I guess many will just run a ``(develop) $ git pull`` in that case, that will add a merge commit in your history. Those merge commits are really annonying searching in history, whether they're empty or not. As an alternative, you can run ``(develop) $ git pull --rebase``, this will prevent the merge commit.
 
 Conclusion: use **rebase**
 
