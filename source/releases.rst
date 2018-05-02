@@ -14,7 +14,7 @@ You will use the release feature to publish new *minor* or *major* versions, but
 Creation
 --------
 
-Just as :doc:`hotfixes <hotfix>`, the banch name must be the version it will become. Let's say we want to release a new *minor* ``1.4.0``:
+Just as :doc:`hotfixes <hotfix>`, the branch name must be the version it will become. Let's say we want to release a new *minor* ``1.4.0``:
 
 .. code-block:: bash
 
@@ -34,7 +34,7 @@ Lifetime
 
    But keep in mind **nothing will not reach your release branch until you do something!**.
 
-Most of the time, your release branch should have a quite short lifetime; and changes should be very lite comparing your ``develop``. As an example, on several project I own (or I've owned); the `release` branch was created to update the changelog if any, add the release date, and eventually bump the version.
+Most of the time, your release branch should have a quite short lifetime; and changes should be very light comparing your ``develop``. As an example, on several project I own (or I've owned); the `release` branch was created to update the changelog if any, add the release date, and eventually bump the version.
 
 This kind of branch may be used for testing purposes also.
 
@@ -52,12 +52,12 @@ In the simpliest case, nothing else has changed in your ``develop``, just update
 
    (release/1.4.0) $ git merge develop
 
-If there were other changes, it may be a bit more complex. You can either ``cherry-pick`` the fix commit, or use advanced git possibiliies of ``merge`` command (such as merging a specific range of commits, for example); refer to the :ref:`Git documentation <gitdoc>`.
+If there were other changes, it may be a bit more complex. You can either ``cherry-pick`` the fix commit, or use advanced git possibilities of ``merge`` command (such as merging a specific range of commits, for example); refer to the :ref:`Git documentation <gitdoc>`.
 
-Pul request
+Pull request
 -----------
 
-If' you've just created the `release` to bump the version, it is not mandatory to open a pull request. On the other hand, if you've made fixes, you'll have to.
+If you've just created the `release` to bump the version, it is not mandatory to open a pull request. On the other hand, if you've made fixes, you'll have to.
 
 If you're on the second use case, push last changes to your fork, go to your github fork page, select your branch and clik "New pull request" button.
 
