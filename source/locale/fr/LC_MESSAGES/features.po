@@ -28,7 +28,7 @@ msgid ""
 "finishing a feature! Even if you can quite easily fix that ;)"
 msgstr ""
 "Prenez garde à ce que votre branche ``develop`` soit bien à jour avant "
-"de créer ou de terminer une feature ! Même si ça peut se corrige r assez "
+"de créer ou de terminer une feature ! Même si ça peut se corriger assez "
 "facilement ;)"
 
 #: ../../source/features.rst:8
@@ -38,7 +38,7 @@ msgid ""
 "reintegrated in the ``develop`` branch as well."
 msgstr ""
 "Cette possibilité sera utilisée pour implémenter de nouvelles "
-"fonctionnalités dans le projet. Les features sont prévue pour être "
+"fonctionnalités dans le projet. Les features sont prévues pour être "
 "créées depuis la branche ``develop`` et pour être réintégrées dans la "
 "branche ``develop`` également."
 
@@ -89,7 +89,7 @@ msgid ""
 "branch, you can do what you want (well... almost!)."
 msgstr ""
 "Donc, oui, vous êtes parés à travailler ! Codez, commitez, poussez, ... "
-"Vus êtes sur une branche, vous pouvez faire ce que vous voulez (ou "
+"Vous êtes sur une branche, vous pouvez faire ce que vous voulez (ou "
 "presque !)."
 
 #: ../../source/features.rst:30
@@ -222,7 +222,7 @@ msgid ""
 "``develop`` and will be part of the next release! Congratulations \\o/"
 msgstr ""
 "Pour terminer, poussez la branche ``develop`` pour que le dépôt distant "
-"soit à jour! Et c'est terminé, `my-great-feature` a été réintégrée dans "
+"soit à jour ! Et c'est terminé, `my-great-feature` a été réintégrée dans "
 "``develop`` et fera partie de la prochaine release ! Félicitations \\o/"
 
 #: ../../source/features.rst:81
