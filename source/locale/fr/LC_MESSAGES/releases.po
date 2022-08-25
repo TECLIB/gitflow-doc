@@ -126,7 +126,7 @@ msgid ""
 "without doing any changes... :-)"
 msgstr ""
 "Parfois, vous pourrez également créer une `release` pour la terminer "
-"immédiatement sans effectuer de modifications... :-)"
+"immédiatement sans effectuer de modifications… :-)"
 
 #: ../../source/releases.rst:43
 msgid ""
