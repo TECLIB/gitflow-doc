@@ -40,7 +40,7 @@ msgid ""
 "incorect branch, or to forget about merging somewhere."
 msgstr ""
 "Gardez en tête qu'il s'agit de standardiser ; des commandes git standard sont "
-"utilisées an arrière-plan, vous pourriez obtenir le même résultat « "
+"utilisées en arrière-plan, vous pourriez obtenir le même résultat « "
 "manuellement » qu'avec git-flow. C'est juste plus simple à utiliser, et ça "
 "évite d'utiliser la mauvaise branche, ou d'oublier de merger quelque part."
 
@@ -249,7 +249,7 @@ msgid ""
 "To be sure everything worked as expected, always take a close look at the "
 "ouptut!"
 msgstr ""
-"Pour vous assurez que tout a fonctionné correctement, regardez toujours "
+"Pour vous assurer que tout a fonctionné correctement, regardez toujours "
 "attentivement la sortie !"
 
 #: ../../source/presentation.rst:101
@@ -286,8 +286,8 @@ msgid ""
 "cases, and the way I do manage them with the few following examples..."
 msgstr ""
 "Je ne souhaite nourrir aucun troll ; les deux possèdent leurs avantages et "
-"leurs inconvénients. Mon conseil est d'éviter les commit de merge quand ils ne "
-"sont pas utiles. Je vais essayer d'expliquer quelques cas de figure standard, "
+"leurs inconvénients. Mon conseil est d'éviter les commits de merge quand ils ne "
+"sont pas utiles. Je vais essayer d'expliquer quelques cas de figure standards, "
 "et la manière dont je les gère à travers les quelques exemples qui suivent..."
 
 #: ../../source/presentation.rst:113

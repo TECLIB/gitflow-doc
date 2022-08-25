@@ -172,7 +172,7 @@ msgstr "Terminer un `hotifx` est aussi simple que :"
 
 #: ../../source/hotfix.rst:72
 msgid "This will:"
-msgstr "Cale va :"
+msgstr "Cela va :"
 
 #: ../../source/hotfix.rst:74
 msgid "Merge changes into the ``master`` branch,"
