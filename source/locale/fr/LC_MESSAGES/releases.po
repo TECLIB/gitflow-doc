@@ -112,7 +112,7 @@ msgstr ""
 "La plupart du temps, votre branche `release` aura une durée de vie "
 "relativement courte ; les modifications seront généralement limitées par "
 "rapport à votre ``develop``. Par exemple, sur plusieurs projets que je "
-"maintiens (ou que j'ai maintenu), une branche `release` n'est créée que pour "
+"maintiens (ou que j'ai maintenus), une branche `release` n'est créée que pour "
 "mettre à jour le changelog, ajouter la date de publication, et éventuellement "
 "mettre à jour la version."
 
@@ -138,7 +138,7 @@ msgstr ""
 "Si un nouveau `hotifx` a été ajouté, vous devrez l'incorporer à votre branche "
 "`release`. Pour savoir comment procéder, vous devrez tout d'abord déterminer "
 "si quelque chose d'autre a changé, vous ne souhaiterez probablement pas "
-"qu'une `feature` terminée après que vous ayez décidé de publier ne soit "
+"qu'une `feature` terminée après que vous avez décidé de publier ne soit "
 "récupérée."
 
 #: ../../source/releases.rst:47
