@@ -92,7 +92,7 @@ msgid ""
 "download for free; and that has also been printed"
 msgstr ""
 "`le livre ProGit <https://git-scm.com/book>`_ visible en ligne ou "
-"téléchargeable ; il a également été imprimé"
+"téléchargeable&nbsp;; il a également été imprimé"
 
 #: ../../source/references.rst:20
 msgid ""
@@ -131,7 +131,7 @@ msgid ""
 "if some vim plugins exists; I do not use them."
 msgstr ""
 "J'utilise `vim <http://www.vim.org/>`_ pour coder, et `l'extension git "
-"<https://github.com/nvie/gitflow>`_ pour gérer mon git-flow ; et bien que "
+"<https://github.com/nvie/gitflow>`_ pour gérer mon git-flow&nbsp;; et bien que "
 "des plugins spécifiques existent, je ne les utilise pas personnellement."
 
 #: ../../source/references.rst:29
