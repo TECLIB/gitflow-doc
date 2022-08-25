@@ -56,7 +56,7 @@ msgid ""
 "release was `1.3.2`; you'll want to create a `1.3.3` hotfix using:"
 msgstr ""
 "Le nom du hotfix doit être la version qu'il va devenir. Si la dernière "
-"version était `1.3.2` ; vous créerez un hotfix `1.3.3` en utilisant :"
+"version était `1.3.2`&nbsp;; vous créerez un hotfix `1.3.3` en utilisant :"
 
 #: ../../source/hotfix.rst:23
 msgid "This will automatically do the following:"
@@ -177,26 +177,26 @@ msgstr "Cale va :"
 
 #: ../../source/hotfix.rst:74
 msgid "Merge changes into the ``master`` branch,"
-msgstr "Merger les changements dans la branche ``master``,"
+msgstr "merger les changements dans la branche ``master``&nbsp;;"
 
 #: ../../source/hotfix.rst:75
 msgid "Create a ``1.3.4`` tag,"
-msgstr "Créer un tag ``1.3.4``,"
+msgstr "créer un tag ``1.3.4``&nbsp;;"
 
 #: ../../source/hotfix.rst:76
 msgid "Merge changes into the ``develop`` branch,"
-msgstr "Merger les changements dans la branche ``develop``,"
+msgstr "merger les changements dans la branche ``develop``&nbsp;;"
 
 #: ../../source/hotfix.rst:77
 msgid "Remove your local ``hotfix\\1.3.4`` branch."
-msgstr "Supprimer votre branche ``hotfix/1.3.4`` locale."
+msgstr "supprimer votre branche ``hotfix/1.3.4`` locale."
 
 #: ../../source/hotfix.rst:79
 msgid ""
 "Once your `hotfix` has been finished; you'll have to push ``master``, "
 "``develop`` and ``tags`` and also remove remote ``hotfix/1.3.4`` branch:"
 msgstr ""
-"Une fois que votre `hotfix` est terminé ; vous devrez pousser ``master``, "
+"Une fois que votre `hotfix` est terminé, vous devrez pousser ``master``, "
 "``develop`` ainsi que les ``tags``, et aussi supprimer la branche "
 "``hotfix/1.3.4`` distante :"
 

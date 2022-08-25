@@ -72,11 +72,11 @@ msgstr "Ce qui réalisera automatiquement les tâches suivantes :"
 msgid "create a new branch named ``release/1.4.0`` from the ``develop`` branch,"
 msgstr ""
 "création d'une nouvelle branche nommée ``release/1.4.0`` depuis la branche "
-"``develop``,"
+"``develop``&nbsp;;"
 
 #: ../../source/releases.rst:26
 msgid "checkout the ``release/1.4.0`` branch."
-msgstr "récupération (``checkout``) de la branche  ``release/1.4.0``"
+msgstr "récupération (``checkout``) de la branche  ``release/1.4.0``."
 
 #: ../../source/releases.rst:29
 msgid "Lifetime"
@@ -91,7 +91,7 @@ msgstr ""
 "Jusqu'à ce que ce soit terminé, vous pouvez toujours ajouter de nouveaux :doc:`hotfix "
 "<hotfix>` ou :doc:`features <features>` (dans tous les cas, si une nouvelle "
 "`feature` doit être ajoutée à votre `release`, vous avez probablement un "
-"souci de planning ;))."
+"souci de planning&nbsp;;))."
 
 #: ../../source/releases.rst:35
 msgid ""
@@ -110,7 +110,7 @@ msgid ""
 "version."
 msgstr ""
 "La plupart du temps, votre branche `release` aura une durée de vie "
-"relativement courte ; les modifications seront généralement limitées par "
+"relativement courte&nbsp;; les modifications seront généralement limitées par "
 "rapport à votre ``develop``. Par exemple, sur plusieurs projets que je "
 "maintiens (ou que j'ai maintenu), une branche `release` n'est créée que pour "
 "mettre à jour le changelog, ajouter la date de publication, et éventuellement "
@@ -147,7 +147,7 @@ msgid ""
 "report changes manually; that would cause conflicts while finishing."
 msgstr ""
 "Souvenez-vous qu'il est toujours préférable de merge et de faire un cherry-"
-"pick plutôt que de reporter des modifications manuellement ; ceci pour éviter "
+"pick plutôt que de reporter des modifications manuellement&nbsp;; ceci pour éviter "
 "des conflits ultérieurs lors de la finalisation."
 
 #: ../../source/releases.rst:49
@@ -168,7 +168,7 @@ msgstr ""
 "S'il y a eu d'autres changements, cela peut s'avérer un peu plus complexe. "
 "Vous pouvez soit ``cherry-pick`` le commit correctif, ou encore utiliser les "
 "possibilités avancée de ``merge`` (comme récupérer une plage de commits, par "
-"exemple) ; référez-vous à la :ref:`documentation Git <gitdoc>`"
+"exemple)&nbsp;; référez-vous à la :ref:`documentation Git <gitdoc>`"
 
 #: ../../source/releases.rst:58
 msgid "Pul request"
@@ -250,19 +250,19 @@ msgstr "Cela va :"
 
 #: ../../source/releases.rst:90
 msgid "Merge changes into the ``master`` branch,"
-msgstr "Merger les changements dans la branche ``master``,"
+msgstr "merger les changements dans la branche ``master``&nbsp;;"
 
 #: ../../source/releases.rst:91
 msgid "Create a ``1.4.0`` tag,"
-msgstr "Créer un tag ``1.4.0``,"
+msgstr "créer un tag ``1.4.0``&nbsp;;"
 
 #: ../../source/releases.rst:92
 msgid "Merge changes into the ``develop`` branch,"
-msgstr "Merger les changements dans la branche ``develop``,"
+msgstr "merger les changements dans la branche ``develop``&nbsp;;"
 
 #: ../../source/releases.rst:93
 msgid "Remove your local ``release\\1.4.0`` branch."
-msgstr "Supprimer votre branche ``release/1.4.0`` locale."
+msgstr "supprimer votre branche ``release/1.4.0`` locale."
 
 #: ../../source/releases.rst:95
 msgid ""
@@ -271,7 +271,7 @@ msgid ""
 "any):"
 msgstr ""
 "Une fois que votre `release` est terminée, vous devrez pousser ``master``, "
-"``develop`` ainsi que les ``tags`` ; et aussi supprimer la branche distante "
+"``develop`` ainsi que les ``tags``&nbsp;; et aussi supprimer la branche distante "
 "``release/1.4.0`` (si toutefois elle existe) :"
 
 #: ../../source/releases.rst:106
