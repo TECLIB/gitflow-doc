@@ -24,9 +24,10 @@ msgstr "Hotfix"
 
 #: ../../source/hotfix.rst:6
 msgid ""
-"Be carefull your ``master`` branch is up-to-date before starting a hotfix, "
+"Be carefull your ``master`` branch is up-to-date before starting a `hotfix`, "
 "and both your ``master`` and ``develop`` branches are up-to-date before "
 "finishing it!"
+
 msgstr ""
 "Prenez garde à ce que votre branche ``master`` soit bien à jour avant de "
 "créer un `hotfix`, et que vos branche ``master`` et ``develop`` soient "
@@ -42,7 +43,7 @@ msgstr ""
 "*majeure*, *mineure* ou *patch*."
 
 #: ../../source/hotfix.rst:12
-msgid "You can have **only one** hotfix at the same time!"
+msgid "You can have **only one** `hotfix` at the same time!"
 msgstr "Vous ne pouvez créer **qu'un seul** `hotfix` à la fois !"
 
 #: ../../source/hotfix.rst:15
@@ -78,7 +79,7 @@ msgstr "Cycle de vie"
 #: ../../source/hotfix.rst:31
 msgid ""
 "Just like :doc:`features`, you will have nothing to do if there were no "
-"changes on the master branch since you've created your `hotfix`."
+"changes on the ``master`` branch since you've created your `hotfix`."
 msgstr ""
 "Tout comme les :doc:`features`, vous n'aurez rien à faire si aucun "
 "changement n'est intervenu sur la branche ``master`` depuis que vous avez "
@@ -86,7 +87,7 @@ msgstr ""
 
 #: ../../source/hotfix.rst:33
 msgid ""
-"If something has changed in the master, that means another `hotfix` has "
+"If something has changed in the ``master``, that means another `hotfix` has "
 "already been done, which also means that the version you are using is "
 "probably incorrect now. In that case, you will have to:"
 msgstr ""
